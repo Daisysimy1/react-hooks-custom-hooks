@@ -4,6 +4,10 @@ function useDocumentTitle(pageTitle) {
   useEffect(() => {
     document.title = pageTitle;
   }, [pageTitle]);
+
+  // useEffect(() => {
+  //   document.title = "Underreacted | Home";
+  // }, [])
 }
 
 export default useDocumentTitle;
